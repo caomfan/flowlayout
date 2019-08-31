@@ -1,0 +1,2 @@
+include ':app', ':imooc_flowlayout2'
+rootProject.name='Imooc_FlowLayout'

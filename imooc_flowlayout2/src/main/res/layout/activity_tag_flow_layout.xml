@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context=".TagFlowLayoutActivity">
+<com.mophan.imooc_flowlayout2.view.TagFlowLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/tag_flow_layout">
+
+</com.mophan.imooc_flowlayout2.view.TagFlowLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change Data"
+        android:onClick="changeDatas"/>
+</LinearLayout>
